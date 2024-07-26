@@ -5,12 +5,13 @@ import AddSub from './components/AddSub';
 import ViewSub from './components/ViewSub';
 import SearchSub from './components/SearchSub';
 import DeleteSub from './components/DeleteSub';
+import Home from './components/Home';
 
 function App() {
   return (
     <div>
       
-      <DeleteSub/>
+      <Home/>
       
 
     </div>
