@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -6,7 +7,7 @@ const NavBar = () => {
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">News</a>
+            <Link class="navbar-brand" to="/">News</Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -14,16 +15,16 @@ const NavBar = () => {
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/view">View</a>
+                <Link class="nav-link" aria-current="page" to="/view">View</Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="/add">Add</a>
+                <Link class="nav-link" to="/add">Add</Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="/search">Search</a>
+                <Link class="nav-link" to="/search">Search</Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="/delete">Delete</a>
+                <Link class="nav-link" to="/delete">Delete</Link>
                 </li>
             </ul>
             </div>
