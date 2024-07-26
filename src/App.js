@@ -4,12 +4,13 @@ import NavBar from './components/NavBar';
 import AddSub from './components/AddSub';
 import ViewSub from './components/ViewSub';
 import SearchSub from './components/SearchSub';
+import DeleteSub from './components/DeleteSub';
 
 function App() {
   return (
     <div>
       
-      <SearchSub/>
+      <DeleteSub/>
       
 
     </div>
